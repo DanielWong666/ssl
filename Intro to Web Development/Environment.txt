@@ -1,0 +1,8 @@
+Dev enviroment
+Last update: Sep 17, 2024
+
+  - Update node.js
+  - Update Git
+  - React
+  - Tokens
+  - Stuff 

@@ -1,0 +1,38 @@
+Important
+
+
+
+
+- 90% of time you will be making silly, easy-fixed mistakes
+-
+- Do not use a language other than English
+
+- Your code must be organized, well-formatted and easy to read
+- It's not HTML's job to style anything
+
+- File structure
+  -project
+    - index.HTML
+    - about.HTML
+    - assets or src 
+      - css or style
+      - js or script
+      - img
+
+- The main html file is always index.html 
+- File names are always in lowercase
+- Keep things simple and consistant (dont reinvent the wheel)
+- Dont use <br> and &nbsp, Spaces and margins are controlled by css
+- Only 1 <h1> per page is recommended
+- Form means validation. Validation means dont trust users
+- Avoid using !important in your styles
+- Clors are not random. 
+- Borders and shadows must be smooth and subtle. Sometimes, they are almost 
+  invisible
+- Containers usally contain content, not the section background.
+- For background, prefer using 'jpg' instead of 'png'. Make sure the image has 
+   an appropriate dimension/size(1440*900) and it is light (<300kb)
+- We always need to provide a sans-serif font. Most of the time, our pages 
+   need only one font, with different weights.
+- Always respect the language's naming convention
+- 

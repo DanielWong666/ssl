@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Opening tags and sigle tags can have attributes -->
+<html lang="en" dir="ltr ">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Duan Wang">
+        <meta name="description" content="My web project">
+        <meta name="keyword" content="html, css, web, seo, web development">
+        <title>Media</title>
+        <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        <h1>Working with media files</h1>
+
+        <section>
+            <h2>Image</h2>
+            <!--
+              The <img> element embededs an image into the document. The 'src'
+               attribute is required, and contains the path to image you want 
+               to embed. The 'alt' attribute holds a text decription of the 
+               image, which isn't mandatory but is incredibly -->
+            <figure>
+                <img src="./assets/img/favicon.png" 
+                title="Daniel"
+                alt="A purple and blue gradient"
+                >
+            </figure>
+        </section>
+        <section>
+            <h2>Video</h2>
+            <video width="500" height="300" controls>
+              <source src="./assets/video/ooo.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <h2>Youtube video</h2>
+            <div>
+                <!--
+                  The <iframe> HTML element represents a nested browsing
+                  context, embedding abother HTML page into the current one.
+                   It is a 'window' to another web page
+                -->
+                <iframe 
+                width="560" height="315" 
+                src="https://www.youtube.com/embed/dvhZHid7qlg?si=k9IY2jX_6jx7O8zz" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*
+  The CSS box-sizing property allows us to include the padding and border in
+  an element's total width and height. Add this rule to your 'reset.css'
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: min(100%-32px, 1200px);
+    margin-inline: auto;
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.box {
+    margin:30px 0 0 50px;
+    width: 300px;
+    height: 100px;
+}
+
+.one {
+    border: 2px solid #7600eb;
+}
+
+.two {
+    border: 2px solid #eb7600;
+    padding: 30px;
+}
+
+.three {
+    border: 2px solid #00eb76;
+}
+
+.four {
+    border: 2px solid #0075eb;
+    padding: 30px;
+}

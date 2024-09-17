@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+* {
+    margin: 50px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /*
+      It is a good practice to provide backup fonts in case the main one doesn't
+      work
+    */
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.container {
+    width: min(100%-32px, 1200px);
+    margin-inline: auto;
+}
+
+h1, h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 700
+}
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    height: 400px;
+    background: #fff url(../img/section.jpg) center center / cover no-repeat;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section h2 {
+    line-height: 400px;
+}
+
+.social-media {
+    margin-top: 60px;
+}
+
+i {
+    font-size: 26px;
+}
+
+i + i {
+    margin-left: 15px;
+}
+
+.fa-square-facebook {
+    color: #1877f2
+}
+
+.fa-instagram {
+    color: #74C0FC;
+}
+
+.fa-youtube {
+    color: #546d96;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+    li{
+        display: inline;
+
+        a {
+            color: #303236;
+        }
+    }
+
+    li + li {
+        margin-left: 15px;
+    }
+}
+
+

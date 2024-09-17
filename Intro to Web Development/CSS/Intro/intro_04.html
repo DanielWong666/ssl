@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Opening tags and sigle tags can have attributes -->
+<html lang="en" dir="ltr ">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Andre Specht">
+        <meta name="description" content="My web project">
+        <meta name="keyword" content="html, css, web, seo, web development">
+        <title>Intro to CSS</title>
+        <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./src/css/specificity.css" media="all">
+        <style>
+            .one
+        </style>
+    </head>
+    <body>
+        <!--
+          one 'id' can be used in only one element
+          one 'class' can be used in multiple elements
+        -->
+        <h1>Intro to CSS</h1>
+        <article>
+            <h2>My life in Winnipeg</h2>
+            <p id="one" class="one" style="color: aqua;">
+                Winnipeg is the capital of Manitoba
+            </p>
+            <p id="two" class="two">The winter is way too long</p>
+            <p>The city is always under construction</p>
+        </article>
+        <section>
+            <p class="black">Black</p>
+            <p class="red">Red</p>
+            <p class="green">Green</p>
+        </section>
+    </body>
+</html>

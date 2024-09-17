@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.alertBox {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    animation-name: alert;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.alertText {
+    text-align: center;
+    font-size: 35px;
+}
+
+.alertSquare {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: alert;
+}
+
+@keyframes alert {
+    from {background-color: red;}
+    to {background-color: white;}
+}
+
+.alertMessage {
+    animation-name: alertFont;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes alertFont {
+    from {font-size:40px;}
+    to {font-size: 200px;}
+}
+

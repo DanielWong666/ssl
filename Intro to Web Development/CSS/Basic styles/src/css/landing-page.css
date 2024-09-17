@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*--------------------------------------------------*/
+/*General rules                                     */
+/*--------------------------------------------------*/
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    /*
+      It is a good practice to provide backup fonts in case the main one doesn't
+      work
+    */
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.container {
+    width: min(100%-32px, 1200px);
+    margin-inline: auto;
+}
+
+/*--------------------------------------------------*/
+/*Hero banner                                       */
+/*--------------------------------------------------*/
+
+.hero-banner {
+    height:100svh;
+    background: #fff url(../img/background.jpg) center center / cover no-repeat;
+}
+
+header {
+    height: 80px;
+    background-color: red;
+    display: flex;
+
+    .name {
+        width: 320px;
+        background-color: aqua;
+        color: blue;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .cart {
+        width: calc(100% - 320px) ;
+        background-color: bisque;
+        text-align: right;
+        font-size: 32px;
+        padding: 20px;
+    }
+}
+
+.hero-banner-bottom {
+    height: 80px;
+    font-size: 30px;
+    background-color: green;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hero-banner-bottom:hover {
+    transform: scaleY(1.2);
+}
+
+.hero-banner-main {
+    height: calc(100% - 80px - 80px);
+    display: grid;
+    place-items: center;
+
+
+ .hero-banner-content {
+    text-align: center;
+
+    h2 {
+        font-size: 60px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1;
+    }
+
+    p {
+        margin-top: 2px;
+        font-size: 22px;
+        color: #fff;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+    }
+
+   .hero-banner-buttons {
+    margin-top: 45px;
+
+     a {
+     padding: 8px 25px;
+     background-color: blue;
+     border-radius: 50px;
+     transition: all 0.25s ease-in-out;
+     }
+
+     .primary {
+        background-color: blue;
+        color:#fff;
+     }
+
+     .primary:hover {
+        background-color: lightblue;
+     }
+
+     .secondary {
+        margin-left: 12px;
+        background-color: #fff;
+        color: blue;
+     }
+
+     .secondary:hover {
+        color:#000 ;
+     }
+    }
+  }
+}
+
+/*--------------------------------------------------*/
+/*Section                                           */
+/*--------------------------------------------------*/
+
+section {
+
+  h3 {
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    }
+  
+  p {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+}
+
+.first {
+    font-size: 17px;
+}
+
+.second {
+    font-size: 1.7rem;
+}
+
+
+/*-----------------------------
+Some rules require a prefix to indicate their
+browser specific implementation
+
+- webkit   Chrome, Edge
+- moz      Firefox
+- o        Opera
+
+*/

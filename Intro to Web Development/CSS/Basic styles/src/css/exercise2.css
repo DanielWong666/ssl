@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+* {
+    margin: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+.dotted {
+    border: 5px;
+    border-style: dotted;
+    border-color: blue;
+}
+
+.dashed {
+    border: 5px;
+    border-style: dashed;
+    border-color: green;
+}
+
+.solid {
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+}
+
+.double {
+    border: red double 15px;
+    border-radius: 15px;
+}
+
+.basictable {
+    border-collapse: collapse;
+}
+
+.basictable th {
+    border: 5px dashed red;
+}
+
+.basictable td {
+    border: 5px solid green;
+}
+
+.fancytable {
+    margin-left: 500px;
+    border-collapse: collapse;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fancytable th, .fancytable td {
+    border: 5px solid red;
+}
+
+.fancytable tr:nth-child(odd) {
+    background-color: bisque;
+}
+
+.fancytable tr:hover {
+    background-color: yellow;
+}

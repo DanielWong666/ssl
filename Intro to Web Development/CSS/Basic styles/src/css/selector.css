@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*
+  body {
+    background-color: #dbeb00;
+}
+*/
+
+/* The most basic 'reset' style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #d9ecff;
+}
+*/
+
+.container {
+    width: min(100%-32px, 1200px);
+    margin-inline: auto;
+}
+
+p, a {
+    font-size: 20px;
+}
+
+section {
+    margin-left: 30px;
+}
+
+div, nav {
+    margin-top: 60px;
+}
+
+h2, h3 {
+    margin-top: 50px;
+}
+
+/* All 'p' in article */
+article p{
+    color:#0075eb
+}
+
+/* All 'p' that are children of article */
+article > p {
+   color: #eb0075
+}
+
+/* Targeting the element with a pseudoclass */
+/*
+div p:first-child {
+    color: #eb7600;
+}
+
+div p:nth-child(1) {
+    color: #eb7600;
+}
+*/
+
+div p:nth-of-type(1) {
+    color: #eb7600;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li + a {
+    color: #f90;
+}
+
+/* Select all li but the first one */
+/* get me all li that come after another li */
+
+nav li + li {
+    margin-top: 20px;
+}
+
+section.text {}
+
+section .text{}
+
+section, .text {}
