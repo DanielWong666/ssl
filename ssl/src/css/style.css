@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+html {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.container {
+    width: min(100%-32px, 1200px);
+    margin-inline: auto;
+}
+
+.hero-banner {
+  height:100svh;
+  background: #fff url(../img/herobanner.jpg) center center / cover no-repeat;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    background-color: #fff;
+
+    .image {
+        margin-left: 50px;
+        margin-top: 10px;
+        width:300px;
+        height:70px
+    }
+}
+
+.hero-banner-main {
+    height: calc(100% - 80px);
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+    h2 {
+        font-size: 60px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1;
+    }
+
+    p {
+        margin-top: 2px;
+        font-size: 22px;
+        color: #fff;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+    }
+}
+
+section {
+    background: url(../img/content.jpg) center center / cover;
+
+  h2 {
+    margin: 20px 200px;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    }
+  
+  p {
+    margin: 20px 200px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+}
