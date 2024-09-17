@@ -1,0 +1,36 @@
+Using Git and GitHub
+
+- Git is a version control system that allows developers to 
+track changes made to their codebase over time
+- Git is the gateway to GitHub, an online platform
+- You are gonna use Git and GitHub forever
+
+Actions
+  - Install Git in your computer
+  - Cteate an account on GitHub (use your main email, add a picture, try 
+  to pick a short username and/or a name that makes sense, save your 
+  credentials somewhere)
+  - Treat your GitHub as an extension of your LinkedIn (you need a job!)
+
+Using GitHub
+  - Cteate a repo on GitHub (remote repository)
+  - Create a repo in your file system (local repository)
+    - a folder for a project
+    - Initiate a new repo
+  - Connect them using the url provided by GitHub
+
+Basic commands
+  - Go to your project folder
+  - Right-click on it and open it on Integrated terminal
+  - Run 'git status' to see if that is already a git repository
+  - If not, run 'git init'. Now you have a local repo
+  - Copy, paste and run the 'remote' url on your local repo. That is the bridge
+    between your local work and the remote work
+
+   Local (your pc)<------------------->Remote (GitHub)
+  - Once you have new files/folders, you have to add, commit and push to GitHub.
+   'commit' basically means to create a 'save point' in your project history
+   - add .
+   - commit -m 'A meaningful message'
+   - push -u origin main
+
